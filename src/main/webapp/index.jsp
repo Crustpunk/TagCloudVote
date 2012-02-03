@@ -116,6 +116,7 @@
         <!-- Alle Umfragen die es gibt anzeigen. Pro TagCloud einen Canvaas rendern -->
         <!-- Alle Javascripte und CSS auslagern -->
         <!-- neue Form fürs eintragen per xmlhttprequest und REST POST -->
+        <!-- http://stackoverflow.com/questions/1255948/post-data-in-json-format-with-javascript -->
         
     <canvas width="600" height="600" id="myCanvas">
         <ul class="weighted" style="font-size: 50%" id="weightTags">
