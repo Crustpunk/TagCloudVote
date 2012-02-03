@@ -32,6 +32,7 @@
                 try {
                     TagCanvas.Start('myCanvas','weightTags',{weightMode:'both'});
                 } catch(e) {
+                    alert('Exception while trying to start dynamic Canvas')
                 }
                 var i, g, gc = document.getElementById('gradient').getContext('2d');
                 g = gc.createLinearGradient(0, 0, 0, gc.canvas.height);
@@ -110,7 +111,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World! says Achim</h1>
+        <h1>Umfragen</h1>
+        <!-- todo ... data-weight berechnen sowie + und - symbole für up und down vote -->
+        <!-- Alle Umfragen die es gibt anzeigen. Pro TagCloud einen Canvaas rendern -->
+        <!-- Alle Javascripte und CSS auslagern -->
+        <!-- neue Form fürs eintragen per xmlhttprequest und REST POST -->
+        
     <canvas width="600" height="600" id="myCanvas">
         <ul class="weighted" style="font-size: 50%" id="weightTags">
             <li><a href="#" data-weight="14" style="font-size: 2.83ex">1000</a></li>
