@@ -134,6 +134,7 @@
             <li><a href="#" data-weight="21" style="font-size: 4.36ex">graphs</a></li>
             <li><a href="#" data-weight="17" style="font-size: 3.32ex">html</a></li>
             <li><a href="#" data-weight="50" style="font-size: 10.68ex">html5</a></li>
+            <li><a href="new.html" data-weight="70" style="font-size: 10.68ex">NEW</a></li>
             <li><a href="#" data-weight="23" style="font-size: 4.69ex">image</a></li>
             <li><a href="#" data-weight="24" style="font-size: 4.8ex">javascript</a></li>
             <li><a href="#" data-weight="26" style="font-size: 5.47ex">jpeg</a></li>
